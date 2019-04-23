@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+        <head>
+        <title>Poland</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>                
+        <meta charset="UTF-8">
+        
+        </head>
+    <body>
+        
+
+<script>
+    $(document).ready(function()
+    {
+        $.getJSON("poland.json", function(data)
+        {
+            
+                var off = data.name.official;
+                $('.off').html(off);
+
+                var cap = data.capital;
+                $('.cap').html(cap);
+
+                var bor = data.borders+" ";
+                $('.bor').html(bor);
+
+                //value.capital;
+               // value.borders;
+            
+        });   
+    });
+</script>
+
+        <h1>Official name</h1>
+		<p class="off"></p>
+		
+		<h1>Capital city</h1>
+		<p class="cap"></p>
+
+		<h1>Countries bordering</h1>
+		<p class="bor"></p>
+
+        </body>
+</html>
