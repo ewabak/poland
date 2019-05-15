@@ -1,0 +1,26 @@
+{
+  "name": "Jan",
+  "surname": "Nowak",
+  "age": 43,
+  "gender": "male",
+  "email": "jannowak@mail.com",
+  "phone": {
+    "landline": 4444444444,
+    "mobile": 33333333},
+    "address": "Klowowa 23, 33-333, Kraków",
+  "interests": [
+    "piłka nożna",
+    "książki",
+    "żółwie"
+    ],
+  "family": {
+    "spouse": {
+      "name": "Anna",
+      "surname": "Nowak"
+    },
+    "children": [
+      "Adam Nowak, male, 16, tennis",
+      "Dawid Nowak, male, 13, taniec"
+      ]
+  }
+}

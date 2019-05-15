@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Jan",
+    "surname": "Nowak",
+    "age": 43,
+    "gender": "male",
+    "email": "jannowak@mail.com",
+    "phone": {
+      "landline": 4444444444,
+      "mobile": 33333333
+    },
+    "address": "Klowowa 23, 33-333, Kraków",
+    "interests": [
+      "piłka nożna",
+      "książki",
+      "żółwie"
+    ],
+    "family": {
+      "spouse": {
+        "name": "Anna",
+        "surname": "Nowak"
+      },
+      "children": [
+        "Adam Nowak, male, 16, tennis",
+        "Dawid Nowak, male, 13, taniec"
+      ]
+    }
+  },
+  {
+    "name": "Krzysztof",
+    "surname": "Kowalski",
+    "age": 3,
+    "gender": "male",
+    "email": "kkowalski@mail.com",
+    "phone": {
+      "landline": 44645646654,
+      "mobile": 33334324242
+    },
+    "address": "Zielona 43, 33-333, Kraków",
+    "interests": [
+      "rolnictwo",
+      "gotowanie"
+    ],
+    "family": {
+      "spouse": {
+        "name": "Karolina",
+        "surname": "Kowalska"
+      },
+      "children": [
+        "Anna Kowalska, male, 12, rysowanie"
+      ]
+    }
+  },
+  {
+    "name": "Alina",
+    "surname": "Drzewo",
+    "age": 63,
+    "gender": "female",
+    "email": "adrzewo@mail.com",
+    "phone": {
+      "landline": 444445435353,
+      "mobile": 33344513
+    },
+    "address": "Stawowa 1,32-33 Kraków",
+    "interests": [
+      "śpiewanie"
+    ],
+    "family": {
+      "spouse": {
+        "name": "Tadeusz",
+        "surname": "Drzewo"
+      },
+      "children": [
+
+      ]
+    }
+  }
+]
